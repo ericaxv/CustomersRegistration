@@ -1,0 +1,9 @@
+c:\users\lindalva\source\repos\NovoCadastroCliente\Projeto.Business\bin\Debug\Projeto.Business.dll
+c:\users\lindalva\source\repos\NovoCadastroCliente\Projeto.Business\bin\Debug\Projeto.Business.pdb
+c:\users\lindalva\source\repos\NovoCadastroCliente\Projeto.Business\obj\Debug\Projeto.Business.csproj.CoreCompileInputs.cache
+c:\users\lindalva\source\repos\NovoCadastroCliente\Projeto.Business\obj\Debug\Projeto.Business.dll
+c:\users\lindalva\source\repos\NovoCadastroCliente\Projeto.Business\obj\Debug\Projeto.Business.pdb
+C:\Users\Lindalva\source\repos\NovoCadastroCliente\Projeto.Business\bin\Debug\Projeto.Repository.dll
+C:\Users\Lindalva\source\repos\NovoCadastroCliente\Projeto.Business\bin\Debug\Projeto.Repository.pdb
+C:\Users\Lindalva\source\repos\NovoCadastroCliente\Projeto.Business\obj\Debug\Projeto.Business.csprojAssemblyReference.cache
+C:\Users\Lindalva\source\repos\NovoCadastroCliente\Projeto.Business\obj\Debug\Projeto.Business.csproj.CopyComplete

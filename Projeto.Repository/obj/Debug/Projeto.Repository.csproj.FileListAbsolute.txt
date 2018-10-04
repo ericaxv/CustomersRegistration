@@ -1,0 +1,6 @@
+c:\users\lindalva\source\repos\NovoCadastroCliente\Projeto.Repository\obj\Debug\Projeto.Repository.csprojAssemblyReference.cache
+c:\users\lindalva\source\repos\NovoCadastroCliente\Projeto.Repository\obj\Debug\Projeto.Repository.csproj.CoreCompileInputs.cache
+c:\users\lindalva\source\repos\NovoCadastroCliente\Projeto.Repository\bin\Debug\Projeto.Repository.dll
+c:\users\lindalva\source\repos\NovoCadastroCliente\Projeto.Repository\bin\Debug\Projeto.Repository.pdb
+c:\users\lindalva\source\repos\NovoCadastroCliente\Projeto.Repository\obj\Debug\Projeto.Repository.dll
+c:\users\lindalva\source\repos\NovoCadastroCliente\Projeto.Repository\obj\Debug\Projeto.Repository.pdb

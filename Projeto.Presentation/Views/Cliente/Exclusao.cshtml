@@ -1,0 +1,28 @@
+﻿
+@model Projeto.Presentation.Models.ClienteExclusaoViewModel
+
+@{
+    ViewBag.Title = "Exclusao";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<h4>Excluir Cliente</h4>
+<a href="/Cliente/Consulta" class="btn btn-info">Voltar para a página anterior</a>
+<br />
+<br />
+
+@using (Html.BeginForm("ExcluirCliente", "Cliente", FormMethod.Post))
+{
+    @Html.HiddenFor(model => model.IdCliente)
+
+    <label>Nome do Cliente: @Model.Nome</label>
+    <br />
+
+    <label>Email do Cliente: @Model.Email</label>
+    <br />
+
+    <input type="submit" value="Confirmar exclusão" class="btn btn-danger" />
+}
+
+
+

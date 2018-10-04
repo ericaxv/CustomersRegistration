@@ -1,0 +1,56 @@
+﻿
+@model Projeto.Presentation.Models.ClienteCadastroViewModel
+
+@{
+    ViewBag.Title = "Cadastro";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<h4>Formulário para cadastro de clientes</h4>
+
+<a href="/Home/Index" class="btn btn-info">voltar para página inicial</a>
+<br />
+<br />
+
+@using (Html.BeginForm("CadastrarCliente", "Cliente", FormMethod.Post))
+{ 
+
+    <div class="text-danger">
+        @Html.ValidationSummary()
+    </div>
+
+    <label>Nome do Cliente</label>
+    @Html.TextBoxFor(model => model.Nome,
+    new
+    {
+        @class = "form-control col-md-4",
+        @placeholder = "NOME DO CLIENTE"
+    })
+
+    <span class="text-danger">
+        @Html.ValidationMessageFor(model => model.Nome)
+    </span>
+    <br />
+
+    <label>Email do Cliente</label>
+    @Html.TextBoxFor(model => model.Email,
+    new
+    {
+        @class = "form-control col-md-4",
+        @placeholder = "EMAIL DO CLIENTE"
+    })
+    <span class="text-danger">
+        @Html.ValidationMessageFor(model => model.Email)
+    </span>
+    <br />
+
+    <INPUT type="submit" value="Cadastrar Cliente" class="btn btn-success" />
+    <br />
+
+    <strong>@ViewBag.Mensagem</strong>
+
+}
+
+
+
+
